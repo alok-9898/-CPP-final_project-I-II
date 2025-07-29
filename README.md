@@ -1,27 +1,27 @@
-<h1>CPP-final_project I/II</h1>
+# CPP-final_project I/II
 
-<h3>Project Structure</h3>
+## Project Structure
 
 WeatherApp/
-├── .vscode/                     # VS Code settings for build/debug
-│   ├── tasks.json               # Build command g++, Raylib
-│   ├── launch.json              # Debug config
-│   └── c_cpp_properties.json    # include paths, standards
+├── .vscode/ # VS Code settings for build/debug
+│ ├── tasks.json # Build command g++, Raylib
+│ ├── launch.json # Debug config
+│ └── c_cpp_properties.json # Include paths, standards
 │
-├── assets/                      # Resources for Raylib (icons, fonts, images)
+├── assets/ # Resources for Raylib (icons, fonts, images)
 │
-├── include/                     # Header files
-│   ├──           
-├── src/                         # C++ implementation files
-│   ├── main.cpp                 # Entry point
+├── include/ # Header files
+│ ├──
+├── src/ # C++ implementation files
+│ ├── main.cpp # Entry point
 │
-├── libs/                        # External libraries
-│   └──                
+├── libs/ # External libraries
+│ └──
 │
-├── build/                       # Build output folder
-│   └──        
+├── build/ # Build output folder
+│ └──
 │
-├── .env                         # API key and secret (not committed to Git)
-├── .gitignore                   # Ignore build/, .env, etc.
-├── README.md                    # Project info
-└── CMakeLists.txt / Makefile    # Optional build config
+├── .env # API key and secret (not committed to Git)
+├── .gitignore # Ignore build/, .env, etc.
+├── README.md # Project info
+└── CMakeLists.txt / Makefile # Optional build config
