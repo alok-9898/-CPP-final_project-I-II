@@ -1,7 +1,7 @@
 # CPP-final_project I/II
 
 ## Project Structure
-
+```bash
 WeatherApp/
 ├── .vscode/ # VS Code settings for build/debug
 │ ├── tasks.json # Build command g++, Raylib
@@ -25,3 +25,4 @@ WeatherApp/
 ├── .gitignore # Ignore build/, .env, etc.
 ├── README.md # Project info
 └── CMakeLists.txt / Makefile # Optional build config
+```
