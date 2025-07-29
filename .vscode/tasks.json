@@ -2,21 +2,23 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Build Raylib Project",
+      "label": "Build WeatherRaylibApp",
       "type": "shell",
       "command": "g++",
       "args": [
-        "main.cpp",
-        "-o",
-        "main.exe",
-        "-I",
-        "C:/raylib/include",
-        "-L",
-        "C:/raylib/lib",
+        "-std=c++17",
+        "-IC:/msys64/mingw64/include",
+        "-IC:/raylib/include",
+        "build/main.cpp",
+        "-LC:/msys64/mingw64/lib",
+        "-LC:/raylib/lib",
+        "-lcurl",
         "-lraylib",
         "-lopengl32",
         "-lgdi32",
-        "-lwinmm"
+        "-lwinmm",
+        "-o",
+        "build/main.exe"
       ],
       "group": {
         "kind": "build",

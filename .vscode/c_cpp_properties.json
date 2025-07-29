@@ -3,8 +3,10 @@
     {
       "name": "Win32",
       "includePath": [
-        "${workspaceFolder}",
-        "C:/raylib/include"
+        "${workspaceFolder}/lib/json",
+        "C:/msys64/mingw64/include",
+        "C:/raylib/include",
+        "${workspaceFolder}/lib"
       ],
       "defines": [],
       "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
