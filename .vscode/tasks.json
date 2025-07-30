@@ -2,23 +2,19 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Build WeatherRaylibApp",
+      "label": "Build WeatherApp",
       "type": "shell",
       "command": "g++",
       "args": [
         "-std=c++17",
-        "-IC:/msys64/mingw64/include",
-        "-IC:/raylib/include",
-        "build/main.cpp",
-        "-LC:/msys64/mingw64/lib",
-        "-LC:/raylib/lib",
+        "-Id:/newweather/CPP-final_project-I-II/include",
+        "-Id:/newweather/CPP-final_project-I-II/libs/curl/include",
+        "src/main.cpp",
+        "src/ApiHandler.cpp",
+        "-Ld:/newweather/CPP-final_project-I-II/libs/curl/lib",
         "-lcurl",
-        "-lraylib",
-        "-lopengl32",
-        "-lgdi32",
-        "-lwinmm",
         "-o",
-        "build/main.exe"
+        "build/weather_app.exe"
       ],
       "group": {
         "kind": "build",
