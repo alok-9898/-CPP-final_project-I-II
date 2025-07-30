@@ -1,0 +1,3 @@
+D:/newweather/CPP-final_project-I-II/build/CMakeFiles/weather_app.dir
+D:/newweather/CPP-final_project-I-II/build/CMakeFiles/edit_cache.dir
+D:/newweather/CPP-final_project-I-II/build/CMakeFiles/rebuild_cache.dir

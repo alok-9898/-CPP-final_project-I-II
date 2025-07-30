@@ -1,0 +1,4 @@
+# ninja log v6
+9	1291	7755954696051274	CMakeFiles/weather_app.dir/src/main.cpp.obj	5ff0c09f65807cde
+96	3164	7755954696927092	CMakeFiles/weather_app.dir/src/ApiHandler.cpp.obj	a2d120f70caf6fd5
+3166	4289	7755954727622471	weather_app.exe	5e6daff602af5a39
